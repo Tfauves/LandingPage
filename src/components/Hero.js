@@ -12,11 +12,6 @@ const TiltedImage = () => (
   </div>
 );
 
-const playSound = (sound) => {
-  const audio = new Audio(sound);
-  audio.play();
-};
-
 const Hero = () => {
   return (
     <div>

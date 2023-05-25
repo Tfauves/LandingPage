@@ -1,13 +1,12 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Navbar from "../Navbar";
-import Section from "../Section";
+import Landing from "../Landing";
 
 const AppRouter = () => {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Section />} />
+        <Route path="/" element={<Landing />} />
       </Routes>
     </div>
   );
