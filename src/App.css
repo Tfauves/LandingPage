@@ -9,13 +9,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  border: "none";
+  border: none;
   width: 40px;
   height: 40px;
   background: transparent;
 }
 
-.nav {
+/* .nav {
   background-color: #e8e9ed;
   position: sticky;
   top: 0px;
@@ -78,4 +78,4 @@
   margin-left: auto;
   margin-right: auto;
   width: 300px;
-}
+} */

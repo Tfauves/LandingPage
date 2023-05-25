@@ -12,70 +12,70 @@ const PhoneButtonSound = () => {
     {
       name: "Button 1",
       sound: btnsound1,
-      marginTop: "7.5em",
-      marginLeft: "-7.5em",
+      marginTop: "6em",
+      marginLeft: "-8.5em",
     },
     {
       name: "Button 2",
       sound: btnsound2,
-      marginTop: "9.5em",
-      marginLeft: "-2.5em",
+      marginTop: "9em",
+      marginLeft: "-4em",
     },
 
     {
       name: "Button 3",
       sound: btnsound3,
-      marginTop: "10em",
-      marginLeft: "3em",
+      marginTop: "10.5em",
+      marginLeft: "1em",
     },
 
     {
       name: "Button 4",
       sound: btn4sound,
-      marginTop: "10.5em",
-      marginLeft: "-8em",
+      marginTop: "9em",
+      marginLeft: "-9.5em",
     },
 
     {
       name: "Button 5",
       sound: btn5sound,
-      marginTop: "12.5em",
-      marginLeft: "-3.5em",
+      marginTop: "12em",
+      marginLeft: "-5em",
     },
 
     {
       name: "Button 6",
       sound: btnsound2,
       marginTop: "13.5em",
-      marginLeft: "2em",
+      marginLeft: "-.5em",
     },
 
     {
       name: "Button 7",
       sound: btnsound3,
-      marginTop: "14em",
-      marginLeft: "-8.5em",
+      marginTop: "12em",
+      marginLeft: "-10.5em",
     },
 
     {
       name: "Button 8",
       sound: btn8sound,
-      marginTop: "15.5em",
-      marginLeft: "-4em",
+      marginTop: "14.5em",
+      marginLeft: "-6.5em",
     },
 
     {
       name: "Button 9",
       sound: btn9sound,
       marginTop: "16.5em",
-      marginLeft: "1em",
+      marginLeft: "-1.5em",
     },
 
     {
       name: "Button 0",
       sound: btn4sound,
-      marginTop: "18.5em",
-      marginLeft: "-4.5em",
+      marginTop: "17.5em",
+      marginLeft: "-7.5em",
     },
   ]);
 

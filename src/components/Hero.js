@@ -5,20 +5,16 @@ import PhoneButtonSound from "./PhoneButtonSound";
 const TiltedImage = () => (
   <div className="image-container">
     <img
-      style={{ transform: "rotate(15deg)", marginTop: "3em" }}
+      style={{ transform: "rotate(25deg)", marginTop: "3em" }}
       src={heroImg}
       alt="Tilted Image"
     />
+    <PhoneButtonSound />
   </div>
 );
 
 const Hero = () => {
-  return (
-    <div>
-      {TiltedImage()}
-      <PhoneButtonSound />
-    </div>
-  );
+  return <div>{TiltedImage()}</div>;
 };
 
 export default Hero;
