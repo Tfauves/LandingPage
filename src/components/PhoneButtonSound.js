@@ -14,12 +14,14 @@ const PhoneButtonSound = () => {
       sound: btnsound1,
       marginTop: "6em",
       marginLeft: "-8.5em",
+      text: "button 1",
     },
     {
       name: "Button 2",
       sound: btnsound2,
       marginTop: "9em",
       marginLeft: "-4em",
+      text: "button 2",
     },
 
     {
@@ -27,6 +29,7 @@ const PhoneButtonSound = () => {
       sound: btnsound3,
       marginTop: "10.5em",
       marginLeft: "1em",
+      text: "button 3",
     },
 
     {
@@ -34,6 +37,7 @@ const PhoneButtonSound = () => {
       sound: btn4sound,
       marginTop: "9em",
       marginLeft: "-9.5em",
+      text: "button 4",
     },
 
     {
@@ -41,6 +45,7 @@ const PhoneButtonSound = () => {
       sound: btn5sound,
       marginTop: "12em",
       marginLeft: "-5em",
+      text: "button 5",
     },
 
     {
@@ -48,6 +53,7 @@ const PhoneButtonSound = () => {
       sound: btnsound2,
       marginTop: "13.5em",
       marginLeft: "-.5em",
+      text: "button 6",
     },
 
     {
@@ -55,6 +61,7 @@ const PhoneButtonSound = () => {
       sound: btnsound3,
       marginTop: "12em",
       marginLeft: "-10.5em",
+      text: "button 7",
     },
 
     {
@@ -62,6 +69,7 @@ const PhoneButtonSound = () => {
       sound: btn8sound,
       marginTop: "14.5em",
       marginLeft: "-6.5em",
+      text: "button 8",
     },
 
     {
@@ -69,6 +77,7 @@ const PhoneButtonSound = () => {
       sound: btn9sound,
       marginTop: "16.5em",
       marginLeft: "-1.5em",
+      text: "button 9",
     },
 
     {
@@ -76,12 +85,16 @@ const PhoneButtonSound = () => {
       sound: btn4sound,
       marginTop: "17.5em",
       marginLeft: "-7.5em",
+      text: "button 0",
     },
   ]);
 
-  const playSound = (sound) => {
+  const [displayText, setDisplayText] = useState("");
+
+  const playSound = (sound, text) => {
     const audio = new Audio(sound);
     audio.play();
+    setDisplayText(text);
   };
 
   return (
@@ -91,7 +104,7 @@ const PhoneButtonSound = () => {
           style={{ marginTop: button.marginTop, marginLeft: button.marginLeft }}
           className="overlay-button"
           key={button.name}
-          onClick={() => playSound(button.sound)}
+          onClick={() => playSound(button.sound, button.text)}
         ></button>
       ))}
     </div>

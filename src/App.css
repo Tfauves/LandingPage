@@ -9,15 +9,15 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  border: none;
+  border: "none";
   width: 40px;
   height: 40px;
   background: transparent;
 }
 
-/* .nav {
+.nav {
   background-color: #e8e9ed;
-  position: sticky;
+  position: fixed;
   top: 0px;
   width: 100%;
   height: 80px;
@@ -58,24 +58,3 @@
 .nav-item > .active {
   border-bottom: 1px solid #333;
 }
-
-.section {
-}
-
-.section-dark {
-  background: #1c2c4c;
-  color: #a4aab7;
-}
-
-.section-content {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 40px;
-}
-
-.sectionImg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 300px;
-} */
