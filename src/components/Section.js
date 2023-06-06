@@ -1,11 +1,22 @@
 import React from "react";
 import Hero from "./Hero";
 
-const Section = ({ backgroundColor, textColor, children, id }) => {
+const Section = ({
+  backgroundColor,
+  textColor,
+  children,
+  id,
+  backgroundImage,
+}) => {
   const sectionStyle = {
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: backgroundColor,
+    backgroundImage: `url(${backgroundImage})`,
+    backgroundImage: `url(${backgroundImage})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+
     color: textColor,
     width: "100%",
     display: "flex",
